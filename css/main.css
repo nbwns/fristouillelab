@@ -74,6 +74,17 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 1px;
 }
 
+h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
 ul {
   margin: 0;
   padding: 0;
@@ -83,10 +94,15 @@ ul li {
   list-style: none;
 }
 
+a{
+color: #e88838;
+}
+
 a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
+    
 }
 
 a:not([href]):not([tabindex]) {
@@ -427,20 +443,20 @@ button:focus {
 }
 
 #hero-area .contents h1,h2 {
-  color: #fff;
+  color: #64BBBB;
   font-size: 46px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #000000;
+text-shadow: 0px 1px 9px rgba(150, 150, 150, 0.5);
 }
 
 #hero-area .contents p {
   font-size: 28px;
-  color: #fff;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
-  color: #000000;
+  color: #64BBBB;
+text-shadow: 0px 1px 9px rgba(150, 150, 150, 0.5);
 
 }
 
@@ -572,7 +588,7 @@ button:focus {
   }
   .navbar-brand {
     position: absolute;
-    padding: 15px;
+    padding: 0px;
     top: 0;
   }
   .navbar-brand img {
@@ -876,6 +892,13 @@ button:focus {
   transition: all 0.5s ease-in-out;
   border: 1px solid #64BBBB;
   border-radius: 50%;
+}
+
+.overlay p {
+    top: 50%;
+    position:  absolute;
+    text-align: center;
+    
 }
 
 .overlay .item-icon:hover {
@@ -1277,4 +1300,20 @@ footer {
 
 .copyright p a:hover {
   color: #64BBBB;
+}
+
+/* ==========================================================================
+	New classes
+	========================================================================== */
+
+ul.project-detail{
+    padding-left: 15px;
+}
+ul.project-detail li{
+    list-style: circle;
+    font-size: 16px;
+}
+
+ul.project-detail ul{
+    padding-left: 30px;
 }
