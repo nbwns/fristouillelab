@@ -443,7 +443,7 @@ button:focus {
 }
 
 #hero-area .contents h1,h2 {
-  color: #64BBBB;
+  color: #533732;
   font-size: 46px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -455,7 +455,7 @@ text-shadow: 0px 1px 9px rgba(150, 150, 150, 0.5);
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
-  color: #64BBBB;
+  color: #533732;
 text-shadow: 0px 1px 9px rgba(150, 150, 150, 0.5);
 
 }

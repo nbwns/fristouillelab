@@ -4,7 +4,7 @@
 
   // Sticky Nav
     $(window).on('scroll', function() {
-        if ($(window).scrollTop() > 200) {
+        if ($(window).scrollTop() > 50) {
             $('.scrolling-navbar').addClass('top-nav-collapse');
         } else {
             $('.scrolling-navbar').removeClass('top-nav-collapse');
@@ -30,7 +30,7 @@
         });
 
         $(window).on('scroll', function() {
-            if ($(window).scrollTop() > 200) {
+            if ($(window).scrollTop() > 50) {
                 $('.fixed-top').addClass('menu-bg');
             } else {
                 $('.fixed-top').removeClass('menu-bg');
@@ -85,7 +85,7 @@
    Sticky Nav
    ========================================================================== */
     $(window).on('scroll', function() {
-        if ($(window).scrollTop() > 200) {
+        if ($(window).scrollTop() > 50) {
             $('.header-top-area').addClass('menu-bg');
         } else {
             $('.header-top-area').removeClass('menu-bg');
