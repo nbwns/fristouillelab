@@ -149,6 +149,9 @@
     effect: 'fadeScale',
     keyboardNav: true,
   });
+    
+    
+     $('a[data-lightbox-gallery]').nivoLightbox();
 
 
 /* stellar js
